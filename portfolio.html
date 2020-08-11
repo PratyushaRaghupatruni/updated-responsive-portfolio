@@ -25,12 +25,10 @@
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
     crossorigin="anonymous"></script>
 
-    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet"
-    href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-    crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
 
   <!--portfolio css link-->
   <link rel="stylesheet" href="./assets2/css/style.css" />
@@ -48,9 +46,9 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto" >
+      <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link"  href="index.html">About</a>
+          <a class="nav-link" href="index.html">About</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="portfolio.html">Portfolio</a>
@@ -65,67 +63,316 @@
 
 
   <!--Main body goes in container-->
-  <div class="container">
+  <div class="col-sm-10 col-md-8 col-lg-7" style="margin:auto;padding: auto;">
+    <div class="container">
+      <div class="row" style="margin-top: 10px;">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+          <div class="card-shadow">
+            <div class="card-body"></div>
+            <!--The content is the header of the container-->
+            <h2 class="card-title" style="color: darkcyan;">Portfolio</h2>
+            <hr class="line">
 
-    <div class="row">
-      <div class="col-sm-12 col-md-12 col-lg-12">
-        <div class="card-shadow">
-          <div class="card-body"></div>
-          <!--The content is the header of the container-->
-          <h2 class="card-title">Portfolio</h2>
-          <hr class="line">
+            <div class="row" style="margin-top: 10px;">
+              <!--This is the content of a row with  columns-->
+              <div class="col-sm-6 col-md-6 col-lg-6 mb-3">
+                <div class="card shadow" data-toggle="modal" data-target="#codeQuiz">
+                  <img src="./assets2/images/pj1.png" alt="pj1" class="rounded img-thumbnail">
+                  <div class="card-body">
+                    <h4 class="card-title text-center mb-0" style="color:darkcyan">Code Quiz</h4>
+                  </div>
+                </div>
 
-          <div class="row">
-            <!--This is the content of a row with  columns-->
-            <div class="col-sm-6 col-md-6 col-lg-6">
-              <figure>
-                <img src="./assets2/images/pj1.png" alt="pj1" class="rounded img-thumbnail">
-                <a href="https://pratyusharaghupatruni.github.io/code-quiz/">Deployed Link</a>
-                <a href="https://github.com/PratyushaRaghupatruni/code-quiz">Github Link</a>
-              </figure>
+                <!-- Modal -->
+                <div class="modal fade" id="codeQuiz" tabindex="-1" aria-labelledby="codeQuizLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h3 class="modal-title card-title " id="codeQuizLabel" style="color:darkcyan">Code Quiz</h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <h5>Description</h5>
+                        <p>Code Quiz, which is typically a combination of multiple-choice
+                          questions and interactive challenges. Build a timed code quiz with multiple-choice
+                          questions. This app will run in the browser and feature dynamically updated HTML and
+                          CSS powered by JavaScript code.</p>
+
+                        <h5>Tech/Frameworks used:</h5>
+                        <ul>
+                          <li>HTML</li>
+                          <li>CSS</li>
+                          <li>Javascript></li>
+                        </ul>
+
+                        <h5>Features</h5>
+                        <ul>
+                          <li>
+                            Responsive Web Design:This Application provides Responsive web design so that it adapts
+                            to multiple screen sizes. Bootstrap is used to provide responsive functionality.
+                          </li>
+                          <li>
+                            User Scores are stored in local storage of web browser and get the previous score when the
+                            user
+                            clicks the highscores.
+                          </li>
+                          <li>
+                            Timer starts when the quiz starts.If the user answers wrong there is a penality in time of
+                            15 seconds.
+                            Timer stops when the quiz is over or when timer reaches zero and displays the highscores
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="modal-footer" style="justify-content:center">
+                        <a href="https://pratyusharaghupatruni.github.io/code-quiz/"><i class="fa fa-link link" style="font-size:30px;color:darkcyan;margin-right:10px"></i></a>
+                        <a href="https://github.com/PratyushaRaghupatruni/code-quiz"><i class="fab fa-github github"
+                            style="font-size:30px;color:darkcyan;"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-6 col-lg-6 mb-3">
+                <div class="card shadow" data-toggle="modal" data-target="#dayPlanner">
+                  <img src="./assets2/images/pj2.png" alt="pj2" class="rounded img-thumbnail">
+                  <div class="card-body">
+                    <h4 class="card-title text-center mb-0" style="color:darkcyan">Day Planner</h4>
+                  </div>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="dayPlanner" tabindex="-1" aria-labelledby="dayPlannerLabel"
+                  aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h3 class="modal-title card-title" id="dayPlannerLabel" style="color:darkcyan">Day Planner</h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <h5>Description:</h5>
+                        <p>
+                          Create a simple calendar application that allows the user to save events for each
+                          hour of the day. This app will run in the browser and feature dynamically updated
+                          HTML and CSS powered by jQuery and/or native JavaScript.
+                        </p>
+                        <h5>Tech/Frameworks used:</h5>
+                        <ul>
+                          <li>HTML</li>
+                          <li>CSS</li>
+                          <li>JQuery</li>
+                        </ul>
+                        <h5>Features:</h5>
+                        <p>
+                          <li>The app will display standard business hours (9 a.m. to 5 p.m.). Each time slot will
+                            represent
+                            one hour and contain the following:
+
+                            <p> - The time</p>
+                            <p>- A field to hold user input</p>
+                            <p>- A save button</p>
+                          </li>
+
+                          <li>Clicking on the save button will store the time and user input in `localStorage`.</li>
+
+                          <li>Near the top of the calendar, the application will display the current day. Additionally,
+                            each
+                            hour will be color coded to reflect whether the time slot is in the past, the present, or
+                            the
+                            future. This will change depending on the time of day.</li>
+                        </p>
+                      </div>
+                      <div class="modal-footer" style="justify-content:center">
+                        <a href="https://pratyusharaghupatruni.github.io/day-planner/"><i class="fa fa-link link" style="font-size:30px;color:darkcyan;margin-right:10px"></i></a>
+                        <a href="https://github.com/PratyushaRaghupatruni/day-planner"><i class="fab fa-github github"
+                            style="font-size:30px;color:darkcyan;"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
 
-            <div class="col-sm-6">
-              <figure>
-                <img src="./assets2/images/pj2.png" alt="pj2" class="rounded img-thumbnail">
-                <a href=" https://pratyusharaghupatruni.github.io/day-planner/">Deployed Link</a>
-                <a href="https://github.com/PratyushaRaghupatruni/day-planner">Github Link</a>
-              </figure>
-            </div>
-          </div>
+            <div class="row " style="margin-top: 10px;">
+              <div class="col-sm-6 col-md-6 col-lg-6 mb-3">
+                <!--This is the content of a row with  columns-->
+                <div class="card shadow" data-toggle="modal" data-target="#weather">
+                  <img src="./assets2/images/pj3.png" alt="pj3" class="rounded img-thumbnail">
+                  <div class="card-body">
+                    <h4 class="card-title text-center mb-0" style="color:darkcyan">Weather Dashboard</h4>
+                  </div>
+                </div>
 
+                <!-- Modal -->
+                <div class="modal fade" id="weather" tabindex="-1" aria-labelledby="weatherLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h3 class="modal-title card-title " id="weatherLabel" style="color:darkcyan">Weather Dashboard
+                        </h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <h5>Description</h5>
+                        <p> 
+                          Built a weather dashboard application with search functionality to find current weather
+                          conditions and the future weather outlook for multiple cities.
 
-          <div class="row">
-            <!--This is the content of a row with  columns-->
-            <div class="col-sm-6">
-              <figure>
-                <img src="./assets2/images/pj3.png" alt="pj3" class="rounded img-thumbnail">
-                <a href="https://github.com/PratyushaRaghupatruni/weather-dashboard">Deployed Link</a>
-                <a href="https://pratyusharaghupatruni.github.io/weather-dashboard/">Github Link</a>
-              </figure>
-            </div>
+                          As a traveler
+                          I want to see the weather outlook for multiple cities
+                          so that I can plan a trip accordingly</p>
+                        <h5>API's Used:</h5>
+                        <ul>
+                          <li>Open Weather API</li>
+                        </ul>
+                        <h5>Tech/Frameworks used:</h5>
+                        <ul>
+                          <li>HTML</li>
+                          <li>CSS</li>
+                          <li>JQuery</li>
+                        </ul>
+                        <h5>Features:</h5>
+                        <ul>
+                          <li>
+                            Using the [OpenWeather API](https://openweathermap.org/api) to retrieve weather data for
+                            cities.
 
-            <div class="col-sm-6">
-              <figure>
-                <img src="./assets2/images/pj4.png" alt="pj4" class="rounded img-thumbnail ">
-                <a href="https://github.com/PratyushaRaghupatruni/projectone">Deployed Link</a>
-                <a href="https://pratyusharaghupatruni.github.io/projectone/">Github Link</a>
-              </figure>
+                            <p>- AJAX to hook into the API to retrieve data in JSON format.</p>
+
+                            <p>- App will run in the browser and feature dynamically updated HTML and CSS powered by
+                              jQuery.</p>
+
+                          <li>- Displays the following under current weather conditions:
+
+                            <p>- City</p>
+                            <p>- Date</p>
+                            <p>- Icon image (visual representation of weather conditions)</p>
+                            <p>- Temperature</p>
+                            <p>- Humidity</p>
+                            <p>- Wind speed</p>
+                            <p>- UV index</p>
+
+                          </li>
+                          <li>
+                            Included a search history so that users can access their past search terms. Clicking on the
+                            city name will perform a new search that returns current and future conditions for that
+                            city.
+
+                            <p> - Included a 5-Day Forecast below the current weather conditions. Each day for the 5-Day
+                              Forecast should display the following:</p>
+                            <p>- Date</p>
+                            <p>- Icon image (visual representation of weather conditions)</p>
+                            <p>- Temperature</p>
+                            <p>- Humidity</p>
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="modal-footer" style="justify-content:center">
+                        <a href="https://pratyusharaghupatruni.github.io/weather-dashboard/"><i class="fa fa-link link" style="font-size:30px;color:darkcyan;margin-right:10px"></i></a>
+                        <a href="https://github.com/PratyushaRaghupatruni/weather-dashboard"><i class="fab fa-github github"
+                            style="font-size:30px;color:darkcyan;"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-6 col-md-6 col-lg-6 mb-3">
+                <div class="card shadow" data-toggle="modal" data-target="#Brewery">
+                  <img src="./assets2/images/pj4.png" alt="pj4" class="rounded img-thumbnail">
+                  <div class="card-body">
+                    <h4 class="card-title text-center mb-0" style="color:darkcyan">Find a Brewery</h4>
+                  </div>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="Brewery" tabindex="-1" aria-labelledby="BreweryLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h3 class="modal-title card-title " id="BreweryLabel" style="color:darkcyan">Find a Brewery</h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        
+                          <h5>Description:</h5>
+                          <p>
+                          As a beer drinker, Many wants to Keep drinking beer and discovering breweries, despite
+                          Covid.Figure out which breweries are open, and what purchase options they offer.Direct my
+                          limited
+                          funds to the best/most-deserving breweries in my area.Do this easily, from home.
+                        </p>
+                        <h5>API's used:</h5>
+                        <ul>
+                          <li>Google Maps API</li>
+                          <li>Google Places API</li>
+                          <li>Yelp API</li>
+                        </ul>
+                        <h5>Tech/Frameworks used:</h5>
+                        <ul>
+                          <li>HTML</li>
+                          <li>CSS</li>
+                          <li>Jquery</li>
+                        </ul>
+                        <h5>Features</h5>
+                        <ul>
+                          <li>
+                          On the home screen, enter your desired search query. The use of Google places allows the
+                          application to be very flexible: Seattle, 98103, and Wallingford Seattle all provided relevant
+                          results to me.
+                          </li>
+                           <li>
+                          On the results screen, click a brewery's list entry to open a window with more detailed info.
+                          Click on a map icon to see which brewery it represents.
+                           </li>
+                          Click on the link in the details panel to open a brewery's Yelp page in a new tab.
+                          <li>
+                          The most recent search is saved in local storage and displayed on refresh. Press the home
+                          button at the top of the page to reset the application.
+                          </li>
+                          <li>
+                            The webpage is fully responsive, and we invite you to try resizing your browser!
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="modal-footer" style="justify-content:center">
+                        <a href="https://pratyusharaghupatruni.github.io/projectone/"><i class="fa fa-link link" style="font-size:30px;color:darkcyan;margin-right:10px"></i></a>
+                        <a href="https://github.com/PratyushaRaghupatruni/projectone"><i class="fab fa-github github"
+                            style="font-size:30px;color:darkcyan;"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-
+  </div>
+  </div>
 
 
   <!--footer of the page-->
-  <footer class="footer mt-auto py-3 fixed-bottom"> 
-    <div class="container"style="background-color:darkcyan">
-      <a href="https://www.linkedin.com/in/pratyusha-raghupatruni-96a35832/"><i class="fab fa-linkedin" style="font-size:36px;color:white"></i></a>
-      <a href="https://github.com/PratyushaRaghupatruni"><i class="fab fa-github" style="font-size:36px;color:white"></i></a>
-      <a href="mailto:pratyusha.raghupatruni@gmail.com"><i class="fas fa-envelope" style="font-size:36px;color:white"></i></a>
+  <footer class="footer mt-auto py-3 fixed-bottom">
+    <div class="container" style="background-color:darkcyan">
+      <a href="https://www.linkedin.com/in/pratyusha-raghupatruni-96a35832/"><i class="fab fa-linkedin linkedln"
+          style="font-size:30px;color:white;margin-right:10px"></i></a>
+      <a href="https://github.com/PratyushaRaghupatruni"><i class="fab fa-github github"
+          style="font-size:30px;color:white;margin-right:10px"></i></a>
+      <a href="mailto:pratyusha.raghupatruni@gmail.com"><i class="fas fa-envelope mail"
+          style="font-size:30px;color:white"></i></a>
     </div>
   </footer>
 
