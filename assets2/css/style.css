@@ -108,14 +108,14 @@ body{
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) { 
     .navbar-brand{
-        font-size: 0.8rem;
+        font-size: 1rem;
     }
 }
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) { 
     .navbar-brand{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
 }
@@ -132,7 +132,7 @@ body{
         font-size: 2rem;
     }
     .card-text{
-        font-size: larger;
+        font-size: medium;
     }
 
 }
