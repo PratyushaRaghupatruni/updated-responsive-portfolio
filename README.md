@@ -8,7 +8,7 @@ This portfolio is responsive to all variety of devices. Responsive design ensure
 Installation:https://pratyusharaghupatruni.github.io/updated-responsive-portfolio/
 
 Here are some screenshots:
-[!Alt text](./assets2/images/portfolio.png)
+![Alt text](https://github.com/PratyushaRaghupatruni/updated-responsive-portfolio/blob/master/assets2/images/portfolio.png)
 
 
   
