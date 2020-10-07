@@ -60,7 +60,7 @@
 
 
   <!--Main body goes in container-->
-  <div class="col-sm-10 col-md-10 col-lg-7" style="margin:auto;padding: auto;">
+  <div class="col-sm-10 col-md-10 col-lg-7" style="margin:auto;padding:auto;">
     <div class="container">
       <div class="row" style="margin-top: 10px;">
         <div class="col-sm-12 col-md-12 col-lg-12">
@@ -72,11 +72,12 @@
 
             <div class="row" style="margin-top: 10px;">
               <!--This is the content of a row with  columns-->
-              <div class="col-sm-6 col-md-6 col-lg-6 mb-3">
+
+              <div class="col-sm-4 col-md-4 col-lg-4 mb-3">
                 <div class="card shadow portfolioInfo" data-toggle="modal" data-target="#codeQuiz">
                   <img src="./assets2/images/pj1.png" alt="pj1" class="rounded img-thumbnail">
                   <div class="card-body">
-                    <h4 class="card-title text-center mb-0" style="color:darkcyan">Code Quiz</h4>
+                    <h5 class="card-title project text-center mb-0" style="color:darkcyan">Code Quiz</h5>
                   </div>
                 </div>
 
@@ -132,11 +133,11 @@
                 </div>
               </div>
 
-              <div class="col-sm-6 col-md-6 col-lg-6 mb-3">
+              <div class="col-sm-4 col-md-4 col-lg-4 mb-3">
                 <div class="card shadow portfolioInfo" data-toggle="modal" data-target="#dayPlanner">
                   <img src="./assets2/images/pj2.png" alt="pj2" class="rounded img-thumbnail">
                   <div class="card-body">
-                    <h4 class="card-title text-center mb-0" style="color:darkcyan">Day Planner</h4>
+                    <h5 class="card-title project text-center mb-0" style="color:darkcyan">Day Planner</h5>
                   </div>
                 </div>
 
@@ -193,15 +194,13 @@
                   </div>
                 </div>
               </div>
-            </div>
 
-            <div class="row " style="margin-top: 10px;">
-              <div class="col-sm-6 col-md-6 col-lg-6 mb-3">
+              <div class="col-sm-4 col-md-4 col-lg-4 mb-3">
                 <!--This is the content of a row with  columns-->
                 <div class="card shadow portfolioInfo" data-toggle="modal" data-target="#weather">
                   <img src="./assets2/images/pj3.png" alt="pj3" class="rounded img-thumbnail">
                   <div class="card-body">
-                    <h4 class="card-title text-center mb-0" style="color:darkcyan">Weather Dashboard</h4>
+                    <h5 class="card-title project text-center mb-0" style="color:darkcyan">Weather Dashboard</h5>
                   </div>
                 </div>
 
@@ -280,12 +279,14 @@
                   </div>
                 </div>
               </div>
+            </div>
 
-              <div class="col-sm-6 col-md-6 col-lg-6 mb-3">
+            <div class="row " style="margin-top: 10px;">
+              <div class="col-sm-4 col-md-4 col-lg-4 mb-3">
                 <div class="card shadow portfolioInfo" data-toggle="modal" data-target="#Brewery">
                   <img src="./assets2/images/pj4.png" alt="pj4" class="rounded img-thumbnail">
                   <div class="card-body">
-                    <h4 class="card-title text-center mb-0" style="color:darkcyan">Find a Brewery</h4>
+                    <h5 class="card-title project text-center mb-0" style="color:darkcyan">Find a Brewery</h5>
                   </div>
                 </div>
 
@@ -351,14 +352,134 @@
                 </div>
               </div>
 
+              <div class="col-sm-4 col-md-4 col-lg-4 mb-3">
+                <!--This is the content of a row with  columns-->
+                <div class="card shadow portfolioInfo" data-toggle="modal" data-target="#eatdaburger">
+                  <img src="./assets2/images/eat-da-burger.png" alt="eat-da-burger" class="rounded img-thumbnail">
+                  <div class="card-body">
+                    <h5 class="card-title text-center project mb-0" style="color:darkcyan">Eat-Da-Burger!!</h5>
+                  </div>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="eatdaburger" tabindex="-1" aria-labelledby="eatdaburgerLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h3 class="modal-title card-title" id="eatdaburgerLabel" style="color:darkcyan">Eat-Da-Burger</h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <h5>Description:</h5>
+                        <p> 'Eat-Da-Burger!' is a restaurant app that lets users input the names of burgers they'd like to eat.
+                          Whenever a user submits a burger's name, app will display the burger on the left side of the page -- waiting to be devoured.
+                          Each burger in the waiting area also has a Devour it! button. When the user clicks it, the burger will move to the right side of the page as 'Devoured'.
+                          App will store every burger in a database, whether devoured or not.</p>
+                        
+                        <h5>Tech/Frameworks used:</h5>
+                        <ul>
+                          <li>HTML</li>
+                          <li>CSS</li>
+                          <li>JQuery</li>
+                          <li>node JS</li>
+                          <li>Express</li>
+                          <li>MySQL</li>
+                        </ul>
+                        <h5>Features:</h5>
+                        <ul>
+                          <li>Followed MVC(Model-View-Controller) design pattern.</li>
+
+                          <li>Used Node and MySQL to store data of the burgers and route data.</li>
+                          
+                          <li>Used handlebars.js to generate dynamic HTML pages.</li>
+                          
+                          <li>App will store every burger in a database, whether devoured or not.</li>
+                        </ul>
+                      </div>
+                      <div class="modal-footer" style="justify-content:center">
+                        <a href="https://application-eat-da-burger.herokuapp.com/"><i class="fa fa-link link" style="font-size:30px;color:darkcyan;margin-right:10px"></i></a>
+                        <a href="https://github.com/PratyushaRaghupatruni/eat-da-burger"><i class="fab fa-github github"
+                            style="font-size:30px;color:darkcyan;"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-4 col-md-4 col-lg-4 mb-3">
+                <!--This is the content of a row with  columns-->
+                <div class="card shadow portfolioInfo" data-toggle="modal" data-target="#jobfinder">
+                  <img src="./assets2/images/jobfinder.png" alt="jobfinder" class="rounded img-thumbnail">
+                  <div class="card-body">
+                    <h5 class="card-title project text-center mb-0" style="color:darkcyan">Job Finder</h5>
+                  </div>
+                </div>
+
+                <!-- Modal -->
+                <div class="modal fade" id="jobfinder" tabindex="-1" aria-labelledby="jobfinderLabel" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h3 class="modal-title card-title" id="jobfinderLabel" style="color:darkcyan">Job Finder
+                        </h3>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <h5>Description:</h5>
+                        <p> 
+                        This is a simple Job Finder application, where the user can first login or sign up 
+                        (if a user does not have an account). After login, User can search jobs by role, 
+                        technologies, location or comapny. Also user can get all jobs,post a new job and 
+                        view the jobs that are posted by logged in user. </p>
+                        
+                        <h5>Tech/Frameworks used:</h5>
+                        <ul>
+                          <li>Javascript</li>
+                          <li>MySQL</li>
+                          <li>handlebars.js</li>
+                          <li>Node.js</li>
+                          <li>Sequelize</li>
+                          <li>Express.js</li>
+                          <li>express-session</li>
+                          <li>bcryptjs</li>
+                          <li>Passport</li>
+                          <li>Passport-local</li>
+                          <li>CSS</li>
+                        </ul>
+                        <h5>Tools Used</h5>
+                        <ul>
+                          <li>ES Lint</li>
+                          <li>Travis CI</li>
+                        </ul>
+                        <h5>Features:</h5>
+                        <ul>
+                          <li>User can sign up with firstname, lastmane, email and password if user is first time visitor.</li>
+                          <li>After logging in with email and password, user can search for the job ,also apply for a job by clicking on the contact.</li>
+                           <li>User can post a new Job and can also view the jobs he/she posted.</li>
+                           <li>User can also get list of all jobs available by clicking on 'All Jobs'.</li>
+                          </ul>
+                      </div>
+                      <div class="modal-footer" style="justify-content:center">
+                        <a href="https://uw-jobfinder.herokuapp.com/"><i class="fa fa-link link" style="font-size:30px;color:darkcyan;margin-right:10px"></i></a>
+                        <a href="https://github.com/saikitjk/JobFinder"><i class="fab fa-github github"
+                            style="font-size:30px;color:darkcyan;"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  </div>
-  </div>
+</div>
+</div>
 
 
   <!--footer of the page-->
