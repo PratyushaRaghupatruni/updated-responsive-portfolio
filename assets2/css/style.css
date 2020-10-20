@@ -2,12 +2,15 @@
 
 body{
     /*setting the background image */
-    background:url("../images/image.jpg") ;
+    background:url("../images/image.png") ;
+   background-repeat: no-repeat;
+   background-size: cover;
+  
     margin-bottom: 100px;
 }
 
 .navbar{
-    background-color:darkcyan !important;
+    background-color:royalblue !important;
     margin-bottom: 30px;
     border-bottom-style:solid;
     border-width:5px;
@@ -58,7 +61,7 @@ body{
  
 .footer{
     /* visual */
-   background-color:darkcyan;
+   background-color:royalblue;
    color: cornsilk;
    border-top-style:solid;
    border-width:5px;
