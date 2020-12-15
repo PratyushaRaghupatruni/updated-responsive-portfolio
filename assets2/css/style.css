@@ -3,9 +3,8 @@
 body{
     /*setting the background image */
     background:url("../images/image.png") ;
-   background-repeat: no-repeat;
-   background-size: cover;
-  
+    background-repeat: no-repeat;
+    background-size: cover;
     margin-bottom: 100px;
 }
 
@@ -14,7 +13,7 @@ body{
     margin-bottom: 30px;
     border-bottom-style:solid;
     border-width:5px;
-    border-bottom-color:coral;
+    border-bottom-color:gray;
    
 }
 .navbar-brand{
@@ -26,37 +25,51 @@ body{
     padding:0;
     
 }
+
 .navbar .navbar-collapse {
     /*positioning*/
     text-align: right;
 }
+
  .nav-item{
      padding-right:20px;
      padding-left:10px;
      font-size: large;
  }  
-.nav-link {
+
+ .nav-link {
     /*visual*/
     color:white !important;
     text-decoration:none;
-    font-size: large;
+    font-size: 22px !important;
 }
-.nav-link:hover{
+
+ .nav-link:hover {
+    /*visual*/
+ color:lightblue;
+
+}
+
+.navbar-portfolio {
+    /*visual*/
+    color:white !important;
+    text-decoration:none;
+    font-size: 22px !important;
+}
+
+.navbar-portfolio:hover{
     /* highlighting the hyperlinks */
-    font-weight: bold;
-    font-style: normal ;
-}
-.nav-link:active{
-    transform: scale(1.3);
+    font-weight:lightblue ;
 }
 
 .container{
     /*visual*/
     background-color:white; 
+    border-radius:13px !important;
  
 }
 .line{
-    border-width:3px;
+    border-width:5px;
 }
  
 .footer{
@@ -65,7 +78,7 @@ body{
    color: cornsilk;
    border-top-style:solid;
    border-width:5px;
-   border-top-color:coral;
+   border-top-color:gray;
 
    /*positioning*/
    text-align:center;
@@ -80,15 +93,19 @@ body{
 .linkedln:hover{
      transform: scale(1.3);
 }
-.github:hover{
-    transform: scale(1.3);
+
+.github:hover {
+    transform: scale(1.3); 
 }
-.mail:hover{
-    transform: scale(1.3);
+
+.mail:hover {
+   transform: scale(1.3);   
 }
-.link:hover{
-    transform: scale(1.3);
+
+.link:hover {
+   transform: scale(1.3);    
 }
+
 
 .portfolioInfo{
     cursor:context-menu;
