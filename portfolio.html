@@ -15,12 +15,15 @@
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
   <!--javascript bootstrap link-->
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" 
+  integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" 
+  crossorigin="anonymous"></script>
+
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
     crossorigin="anonymous"></script>
@@ -28,7 +31,8 @@
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
-
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!--portfolio css link-->
   <link rel="stylesheet" href="./assets2/css/style.css" />
 </head>
@@ -37,27 +41,37 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light py-2">
     <h3 class="navbar-brand"><a class="nav-link " href="index.html"><strong>Pratyusha Raghupatruni</strong></a></h3>
-</nav>
-    
-  <!--Main body goes in container-->
-
-    <div class="container col-sm-10 col-md-10 col-lg-7" style="margin:auto;padding:auto;">
-      <div class="row" style="margin-top: 10px;">
-          <div class="card-shadow">
-            <div class="card-body">
-            <!--The content is the header of the container-->
-            <h3 class="card-title" style="color: royalblue;">Portfolio</h3>
-            <hr class="line">
-
-            <div class="row" style="margin-top: 10px;">
-              <!--This is the content of a row with  columns-->
-
-              <div class="col-sm-4 col-md-4 col-lg-4 mb-3">
-                <div class="card shadow portfolioInfo" data-toggle="modal" data-target="#codeQuiz">
-                  <img src="./assets2/images/pj1.png" alt="pj1" class="rounded img-thumbnail">
-                  <div class="card-body">
-                    <h5 class="card-title project text-center mb-0" style="color:royalblue">Code Quiz</h5>
-                  </div>
+ </nav>
+  
+      <div class="container">
+         <div class="row" >
+              <div class="col-lg-4" style= "padding:20px; background-color:transparent;">
+                <div class="card shadow portfolioInfo" data-toggle="modal" data-target="#codeQuiz" style=
+                  "border-radius: 10px;
+                   background-color: #ffffff; 
+                   box-shadow: 3px 3px 12px 0 #a9a9a9;
+                   text-align: center">
+                  <img src="./assets2/images/codeQuiz.png" class="card-img-top" alt="code-quiz">
+                    <div class="card-body">
+                      <h5 class="card-title" style= "font-size:1.2em"}><strong>Code Quiz</strong></h5>
+                      <p class="card-text" style="font-size:1.0em; text-align: left;color: #444444;padding:15px">A timer-based quiz application that stores high scores client-side.Answering incorrectly results in penality of time</p>
+                    <div>
+                     <a style="min-width: 100px; margin: 15px 10px 5px;"
+                      href="https://pratyusharaghupatruni.github.io/code-quiz/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                     >
+                     <i class='fas fa-globe' style="font-size:24px"></i>
+                    </a>
+                    <a style=" min-width:60px;margin: 15px 10px 5px ;"
+                    href="https://github.com/PratyushaRaghupatruni/code-quiz"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >
+                     <i class='fa fa-github ' style="font-size:30px;"></i>
+                    </a>
+                    </div>
+                   </div>
                 </div>
 
                 <!-- Modal -->
@@ -72,10 +86,7 @@
                       </div>
                       <div class="modal-body">
                         <h5>Description:</h5>
-                        <p>Code Quiz, which is typically a combination of multiple-choice
-                          questions and interactive challenges. Build a timed code quiz with multiple-choice
-                          questions. This app will run in the browser and feature dynamically updated HTML and
-                          CSS powered by JavaScript code.</p>
+                        <p></p>
 
                         <h5>Tech/Frameworks used:</h5>
                         <ul>
@@ -449,13 +460,13 @@
                       </div>
                     </div>
                   </div>
-                </div>
-              </div>
+                <!-- </div>
+              </div> -->
           </div>
         </div>
       </div>
     </div>
-  </div>
+</div>
 </div>
 
 

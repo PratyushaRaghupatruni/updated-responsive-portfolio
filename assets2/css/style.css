@@ -62,12 +62,6 @@ body{
     font-weight:lightblue ;
 }
 
-.container{
-    /*visual*/
-    background-color:white; 
-    border-radius:13px !important;
- 
-}
 .line{
     border-width:5px;
 }
