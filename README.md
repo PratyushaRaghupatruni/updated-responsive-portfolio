@@ -9,14 +9,12 @@ As a Full Stack Web Developer, I want to have an application created with the la
 
 This portfolio features relevant technologies such as JavaScript, HTML, CSS, SQL / NoSQL Databases, MERN: Mongo, Express, Node, React, and polished UI interfaces.
 
-Every featured project presents a brief description, and functional icons to see the live application and to see the Github repository. The footer includes links to my main internet handles on Github, LinkedIn, my Resume and a link to contact me by email. This updated portfolio has been created with React and deployed using Github pages.
+Every featured project presents a brief description, and functional icons to see the live application and to see the Github repository. The footer includes links to my main internet handles on Github, LinkedIn, my Resume and a link to contact me by email. 
 
-
-#### **[Deployed Application](https://pratyusharaghupatruni.github.io/react-portfolio/)**
+#### **[Deployed Application](https://pratyusharaghupatruni.github.io/updated-responsive-portfolio/)**
 
 ### Table of Contents
 
-*  [Installation](#installation)
 *  [Features](#features)
 *  [Preview](#preview)
 *  [Technology](#technology)
@@ -24,10 +22,6 @@ Every featured project presents a brief description, and functional icons to see
 *  [Questions](#questions)
 *  [License](#license)
 
-### Installation
-
-Run npm install in the terminal after cloning the project.
-<pre><code> npm install </code></pre>
 
 ### Features
 
@@ -35,9 +29,8 @@ Run npm install in the terminal after cloning the project.
 * About me page about my introduction
 * A navbar featuring a link to the projects I developed
 * A footer having a links to my github,linkedin,my contact and resume
-* Portfolio page featuring 7 projects with a preview image of my project and a description
+* Portfolio page featuring 9 projects with a preview image of my project and a description
 * Every project presents buttons to launch the app and to see the github repository
-* React application built using React Router and Components
 * Mobile first responsive application across devices
 
 ### Preview :
@@ -45,27 +38,21 @@ Run npm install in the terminal after cloning the project.
 
 |Medium Devices/ Laptop|Small Devices/ Tablet|Extra Small Devices/Phone
 |--|--|--
-|![Laptop](./src/images/profile.png)|![Tablet](./src/images/profileipad.png)|![Mobile](./src/images/profilephone.png)
+|![Laptop](./assets2/images/laptop.png)|![Tablet](./assets2/images/ipad.png)|![Mobile](./assets2/images/phone.png)
 
 #### Portfolio Page
 
-|Medium Devices/ Laptop|Small Devices/ Tablet|Extra Small Devices/Phone
-|--|--|--
-|![Laptop](./src/images/portfolio.png)|![Tablet](./src/images/portfolioipad.png)|![Mobile](./src/images/portfoliophone.png)
-
+|Medium Devices/ Laptop|
+|--|
+|![Laptop](./assets2/images/profilescreenshot.png)|
 
 ### Technology
 
 #### Application 
- * React.js
- * Node.js
+ * HTML
+ * CSS
  * Bootstrap UI
 
-#### Npm Dependencies:
-* React Dom
-* Bootstrap
-* React Router Dom
-* React-Bootstrap
 
 ### Contributing
 
