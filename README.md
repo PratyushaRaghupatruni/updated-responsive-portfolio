@@ -1,5 +1,5 @@
 
-# React_Portfolio
+# Responsive Portfolio
 
 ![MIT License](https://img.shields.io/badge/license-MIT-green)
 
